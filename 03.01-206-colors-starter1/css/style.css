@@ -64,6 +64,10 @@ footer {
     background-color: orange;
   }
 
+  .col-3 {
+    width: 50%;
+  }
+
   #column-1 {
     background-color: lightblue;
   }
@@ -74,6 +78,7 @@ footer {
 
   #column-3 {
     background-color: lightyellow;
+    width: 100%;
   }
 
   footer {
@@ -89,6 +94,10 @@ footer {
     background-color: lightslategray;
   }
 
+  .col-3 {
+    width: 33%;
+  }
+
   #column-1 {
     background-color: lightslategrey;
   }
@@ -99,6 +108,7 @@ footer {
 
   #column-3 {
     background-color: lightgoldenrodyellow;
+    width: 33%;
   }
 
   footer {
