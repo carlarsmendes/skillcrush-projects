@@ -89,7 +89,7 @@ footer {
 
 
 /*---------- Desktops ----------*/
-@media (min-width: 940px) {
+@media (min-width: 1200px) {
   header {
     background-color: lightslategray;
   }
@@ -99,7 +99,7 @@ footer {
   }
 
   #column-1 {
-    background-color: lightslategrey;
+    background-color: lightseagreen;
   }
 
   #column-2 {
