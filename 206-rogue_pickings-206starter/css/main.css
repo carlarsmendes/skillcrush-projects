@@ -3,6 +3,12 @@
 	src: url('../fonts/wisdom-script.otf') format('opentype');
 }
 
+/* -----MOBILE-FIRST-----  */
+
+* {
+	/* border: 3px solid orange; */
+}
+
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
@@ -151,7 +157,7 @@ header nav ul li a {
 	/* border-top: 1px solid #eee; */
 	/* border: 1px solid yellow; */
 	width: 100%;
-	padding: 5px 30px;
+	/* padding: 5px 30px; */
 }
 
 
@@ -206,4 +212,48 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 14px;
+}
+
+/* --- MEDIA QUERIES -> TABLET PORTRAIT */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+	.section-one,
+	.section-two,
+	.section-three {
+		/* width: 33%; */
+		height: auto;
+		/* float: left; */
+		/* border-top: 1px solid #eee; */
+		/* border: 1px solid yellow; */
+		width: 33%;
+		/* padding: 5px 30px; */
+	}
+
+	.bottom-section {
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		align-content: center;
+
+	}
+
+	footer {
+		height: 50px;
+		border-top: 3px solid #eee;
+		margin: 0 auto;
+		clear: both;
+		text-align: center;
+		width: 90%;
+	}
+
+}
+
+/* Laptop Landscape */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+
+	/* HERE CHANGE NAV-BAR MENU TO GO SIDE-BY-SIDE */
+
+
+
 }
