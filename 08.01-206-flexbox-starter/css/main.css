@@ -96,17 +96,19 @@ textarea {
    ========================================================================== */
 
 html {
-    background-color: #fff;
+    background-color: #000;
     height: 100%;
     width: 100%;
 }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'Karla', sans-serif;
     padding: 0 2em;
     font-size: 1.25em;
     height: 100%;
-    color: #fff;
+    color: #000;
 }
 
 html,
@@ -117,36 +119,48 @@ body {
 
 header,
 footer {
-    background-color: #222;
+    /* background-color: #000; */
+    color: white;
     height: 80px;
     width: 100%;
+    font-family: 'Rubik', sans-serif;
 }
 
 main {
-    background-color: #ccc;
+    /* background-color: #000; */
     height: 250px;
     width: 100%;
+    color: white;
+    font-size: 1.40em;
 }
 
 header,
 footer,
 main {
     display: flex;
-    /* flex-flow: row nowrap; */
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 #div-1,
 #div-2,
 #div-3 {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center; */
     color: #fff;
     line-height: 1.5em;
     font-size: 1.25em;
-    height: auto;
+    min-height: 400px;
+    padding: 10px;
+}
+
+#div-2 {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
 }
 
 .wrapper span {
@@ -163,15 +177,17 @@ main {
 
 .flex-items {
     display: flex;
-    /* flex-flow: row nowrap; */
     justify-content: center;
     align-items: center;
+    align-content: center;
     color: #fff;
     line-height: 1.5em;
     font-size: 1.6em;
-    background-color: #f16059;
+    /* background-color: #f16059; */
     width: 30%;
-    height: 200px;
+    /* height: 200px; */
+    text-align: center;
+
 }
 
 /* ==========================================================================
