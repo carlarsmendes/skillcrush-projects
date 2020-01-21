@@ -20,7 +20,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 100%;
+	/* height: 100%; */
 }
 
 .container {
@@ -104,7 +104,7 @@ header nav ul {
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 0.875em;
 	padding: 10px 5px;
 	display: inline;
 }
@@ -125,7 +125,9 @@ header nav ul li a {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-
+	max-width:1200px;
+	width:80%;
+	/* border:3px solid yellow; */
 }
 
 
@@ -137,7 +139,7 @@ header nav ul li a {
 }
 
 .main-image img {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	/* border: 3px solid #77a466; */
 }
@@ -145,7 +147,7 @@ header nav ul li a {
 .main-title {
 	height: auto;
 	/* float: left; */
-	width: 90%;
+	width: 100%;
 }
 
 .main-title h3 {
@@ -156,7 +158,7 @@ header nav ul li a {
 
 .main-title p {
 	padding: 0;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 25px;
 }
 
@@ -170,6 +172,7 @@ header nav ul li a {
 	/* border: 1px solid yellow; */
 	width: 100%;
 	/* padding: 5px 30px; */
+	/* border:3px solid orange; */
 }
 
 
@@ -201,12 +204,12 @@ header nav ul li a {
 
 .reviews {
 	color: #333;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 21px;
 }
 
 .address {
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 24px;
 }
 
@@ -226,7 +229,7 @@ footer span {
 	font-family: 'Wisdom Script', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 14px;
+	font-size: 0.875em;
 }
 
 /* --- MEDIA QUERIES -> TABLET PORTRAIT */
@@ -305,8 +308,30 @@ footer span {
 		border-bottom: none;
 	}
 
+	
+.section-two {
+	margin-left:20px;
+	margin-right:20px;
+	padding-left:20px;
+	padding-right:20px;
+}
+	.section-one h4,
+.section-two h4,
+.section-three h4 {
+	padding: 5px 0px;
+}
+
+
+.section-one ul,
+.section-two p,
+.section-three p {
+	padding: 5px 0px;
+}
+	
 	footer {
 		margin: 5vw auto;
 	}
+
+
 
 }
